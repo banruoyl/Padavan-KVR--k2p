@@ -109,5 +109,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-KVR-K2P-USB
+        name: Padavan-K2P-32-512-usb-lucky
         path: /opt/images
