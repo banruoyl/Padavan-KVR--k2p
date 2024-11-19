@@ -87,9 +87,9 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> .config #Alist 一个支持多种存储的文件列表程序
         echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #去广告
         ##科学上网##
-        echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=n" >> .config #
-        echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=n" >> .config #
-        echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=n" >> .config #
+        echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config #
+        echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #
+        echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #
         echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=n" >> .config #
         ##vpn
         #echo  "CONFIG_FIRMWARE_INCLUDE_OPENVPN=y" >> .config
